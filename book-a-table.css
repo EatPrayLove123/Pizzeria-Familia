@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+.header {
+    background-image:url("images/pizza.jpg");
+    background-size: cover ;
+    background: linear-gradient(90deg, rgb(65,31,36,) 0%, rgb(66, 54, 54) 44%, rgb(153, 125, 125) 100%);
+}
+
+label {
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: #464646;
+  }
+  
+  input {
+    font: inherit;
+    border: 1px solid #ccc;
+    padding: 0.4rem 0.2rem;
+    color: #383838;
+  }
+  
+  input:focus {
+    outline: none;
+    background: #fff1c4;
+  }
+  

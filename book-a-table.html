@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a table</title>
+    <link rel="stylesheet" href="bat.css">
+</head>
+<body> 
+    
+    <div class="book-a-table-page" ></div>
+      <div class="form">
+            <form class="book-a-table-form">
+            <input type="text" placeholder="name"/>
+            <input type="text" placeholder="last name"/>
+            <input type="text" placeholder="email"/>
+            <label for="data">Data rezervarii</label>
+            <input type="number" name="data" id="data" />
+            <label for="rating">Ora</label>
+            <input
+          type="number"
+          step="00.00"
+          max="23.59"
+          min="00.00"
+          name="ora"
+          id="ora"
+            />
+            <button class="btn btn--passive">Cancel</button>
+        <button class="btn btn--success">Make Reservation</button>
+            </form>
+      </div>
+    
+      <div class="modal__actions">
+        
+      </div>
+
+    </div>
+
+</body>
+</html>
